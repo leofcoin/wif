@@ -1,0 +1,25 @@
+{
+  "name": "@leofcoin/wif",
+  "version": "1.0.0",
+  "description": "",
+  "exports": {
+    ".": "./wif.js"
+  },
+  "type": "module",
+  "types": "./wif.d.ts",
+  "scripts": {
+    "build": "rollup -c",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@vandeurenglenn/base58check": "^1.1.1"
+  },
+  "devDependencies": {
+    "@rollup/plugin-typescript": "^10.0.1",
+    "rollup": "^3.9.0",
+    "tslib": "^2.4.1"
+  }
+}
